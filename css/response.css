@@ -1,0 +1,304 @@
+@media (max-width: 1300px) {
+
+#home .container1 ul {
+    display: none;
+}
+nav .container1 .choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    }
+ nav .container1 .choices .lines {
+ display: block;
+ margin: 5px 0px;
+ width: 30px;
+ height: 2px;
+ background-color: #fff;
+}
+
+  #home .container2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 40%;
+    display: block;
+    text-align: center;
+  }
+
+
+
+#home .container2 .fitness h1 {
+    color: #fff;
+    font-size: 27px;
+}
+#home .container2 .fitness h4 {
+    color: #fff;
+    font-size: 33px;
+    margin: 10px 0px;
+}
+#home .container2 .list{
+    margin-left: auto;
+}
+#about .container3 {
+    width: 65%;
+    margin: auto;
+    display: block;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+/* #about .container3 .part2 img{
+    display: none;
+} */
+#service .container4 .container4-part {
+    display: block;
+    gap: 20px;
+    margin: 30px 0px;
+}
+#service .container4 .container4-part .logo350 {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+    }
+#service .container4 .container4-part .logo350 div{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: var(--main-color);
+    border: 1px solid #000;
+}
+#service .container4 .container4-part .logo350 div i{
+    font-size: 40px;
+}
+#service .container4 .container4-part .logo{
+    display: none;
+}
+
+
+
+#client .container5 {
+    width: 60%;
+    display: block;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+    #client .container5 .part1, #client .container5 .part2 {
+        margin: auto;
+        width: 190px;
+    }
+/* #client .container5 .part1 .img350,
+#client .container5 .part2 .img350{
+    margin-top: 45px;
+    border: 1px solid var(--main-color);
+    border-radius: 100%;
+    display: block;
+}
+#client .container5 .part1 img,
+#client .container5 .part2 img{
+    margin-top: 45px;
+    border: 1px solid var(--main-color);
+    border-radius: 100%;
+    display: none;
+}
+#client .container5 .part1 h2,
+#client .container5 .part2 h2{
+    margin-top: 20px;
+    color: var(--main-color);
+    display: none;
+}
+#client .container5 .part1 .h2-350,
+#client .container5 .part2 .h2-350{
+    margin-top: 20px;
+    color: var(--main-color);
+    display: block;
+} */
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    #client .container5 .part1, #client .container5 .part2 {
+        margin: auto;
+        width: 270px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    #home .container2{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%,-50%);
+    width: 82%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+#home .container2 .fitness h1{
+    color: #fff;
+    font-size: 60px;
+}
+#home .container2 .fitness h4{
+    color: #fff;
+    font-size: 40px;
+    margin: 10px 0px;
+}
+#home .container2 .fitness button{
+    border: 2px solid var(--main-color);
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition-duration: 0.2s;
+}
+#home .container2 .fitness button:hover{
+    background-color: #242424;
+    cursor: pointer;
+}
+#home .container2 .fitness button:active{
+    border-color: #fff;
+}
+#home .container2 .list{
+    width: 40px;
+    height: 180px;
+    border-radius: 15px;
+    margin-right: 25px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+
+}
+#home .container2 .list i{
+    font-size: 18px;
+    margin: 15px 0px;
+}
+#about .container3 .part2 img{
+    display: block;
+}
+#client .container5 .part1, #client .container5 .part2 {
+        margin: auto;
+        width: 380px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    #home .container2{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%,-50%);
+    width: 82%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+#home .container2 .fitness h1{
+    color: #fff;
+    font-size: 60px;
+}
+#home .container2 .fitness h4{
+    color: #fff;
+    font-size: 40px;
+    margin: 10px 0px;
+}
+#home .container2 .fitness button{
+    border: 2px solid var(--main-color);
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition-duration: 0.2s;
+}
+#home .container2 .fitness button:hover{
+    background-color: #242424;
+    cursor: pointer;
+}
+#home .container2 .fitness button:active{
+    border-color: #fff;
+}
+#home .container2 .list{
+    width: 40px;
+    height: 180px;
+    border-radius: 15px;
+    margin-right: 25px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+
+}
+#home .container2 .list i{
+    font-size: 18px;
+    margin: 15px 0px;
+}
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+    nav .container1 .choices,
+nav .container1 .choices .lines{
+    display: none;
+}
+#home .container1 ul{
+    display: flex;
+    margin-top: 30px;
+}
+#home .container1 ul li{
+    margin-right: 25px;
+}
+#home .container1 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+#home .container1 ul li a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--main-color);
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+#home .container1 ul li:hover a::after,
+#home .container1 ul li a:focus:after,
+#home .container1 ul li a:active:after{
+    opacity: 1;
+}
+#about .container3 {
+    display: flex;
+}
+
+#about .container3 .part2 {
+    width: 230%;
+}
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {}

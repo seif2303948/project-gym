@@ -127,6 +127,22 @@ nav .container1 .choices {
     color: var(--main-color);
     display: block;
 } */
+#trainer .container6 {
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+#trainer .container6 div{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 3px solid #000;
+    width: 250px;
+    height: 400px;
+    margin-bottom: 30px;
+}
 }
 
 @media (min-width: 371px) and (max-width: 1300px) {
@@ -134,6 +150,13 @@ nav .container1 .choices {
         margin: auto;
         width: 270px;
     }
+    #trainer .container6 div{
+    background-color: #fff;
+    border: 3px solid #000;
+    width: 280px;
+    height: 420px;
+    margin-bottom: 30px;
+}
 }
 
 @media (min-width: 577px) and (max-width: 1300px) {
@@ -197,6 +220,13 @@ nav .container1 .choices {
 #client .container5 .part1, #client .container5 .part2 {
         margin: auto;
         width: 380px;
+    }
+    #trainer .container6 div {
+        background-color: #fff;
+        border: 3px solid #000;
+        width: 350px;
+        height: 460px;
+        margin-bottom: 30px;
     }
 }
 

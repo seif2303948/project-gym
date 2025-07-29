@@ -91,16 +91,23 @@ nav .container1 .choices {
 
 
 #client .container5 {
-    width: 60%;
+    width: 70%;
     display: block;
     justify-content: space-between;
     margin: auto;
     text-align: center;
 }
-    #client .container5 .part1, #client .container5 .part2 {
-        margin: auto;
-        width: 190px;
-    }
+#client .container5 .part1, #client .container5 .part1{
+    margin: auto;
+    width: 190px;
+    margin-top: 30px;
+}
+#client .container5 .part1, #client .container5 .part2 {
+    margin: auto;
+    width: 190px;
+    margin-top: 30px;
+}
+
 /* #client .container5 .part1 .img350,
 #client .container5 .part2 .img350{
     margin-top: 45px;
@@ -129,7 +136,6 @@ nav .container1 .choices {
 } */
 #trainer .container6 {
     display: block;
-    justify-content: space-between;
     width: 100%;
     margin: auto;
 }
@@ -139,16 +145,98 @@ nav .container1 .choices {
     margin-bottom: 30px;
     background-color: #fff;
     border: 3px solid #000;
-    width: 250px;
-    height: 400px;
+    width: 280px;
+    height: 420px;
     margin-bottom: 30px;
 }
+#gallery .container7 {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+
+
+#contact .container8 {
+    display: block;
+    width: 55%;
+    margin: auto;
+    margin-top: 50px;
+}
+#contact .container8 .card-1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#contact form .contact-info {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+}
+#contact form .contact-info input {
+    height: 40px;
+    padding: 10px;
+}
+#contact form .contact-info textarea {
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
+    resize: none;
+    height: 170px;
+    padding: 10px;
+}
+#contact  .contact-info textarea,
+#contact  .contact-info input{
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+}
+footer section .footer-info {
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    background-color: #333;
+    padding-bottom: 20px;
+}
+footer section .footer-info .links {
+    margin: auto;
+    width: 40%;
+}
+footer section .footer-info .links ul {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+footer section .footer-info .posts .card-2 {
+    display: block;
+    width: 100%;
+}
+footer section .footer-info .posts .card-2 img {
+    width: 100%;
+}
+footer section .footer-info .times {
+    width: 50%;
+    margin: auto;
+}
+footer section .footer-info .links,
+footer section .footer-info .posts{
+    margin-bottom: 20px;
+}
+
+
 }
 
 @media (min-width: 371px) and (max-width: 1300px) {
+    #client .container5 .part1, #client .container5 .part1 {
+        margin: auto;
+        width: 270px;
+        margin-top: 30px;
+    }
     #client .container5 .part1, #client .container5 .part2 {
         margin: auto;
         width: 270px;
+        margin-top: 30px;
     }
     #trainer .container6 div{
     background-color: #fff;
@@ -217,17 +305,28 @@ nav .container1 .choices {
 #about .container3 .part2 img{
     display: block;
 }
+#client .container5 .part1, #client .container5 .part1 {
+    margin: auto;
+    width: 380px;
+    margin-top: 30px;
+}
 #client .container5 .part1, #client .container5 .part2 {
-        margin: auto;
-        width: 380px;
-    }
-    #trainer .container6 div {
-        background-color: #fff;
-        border: 3px solid #000;
-        width: 350px;
-        height: 460px;
-        margin-bottom: 30px;
-    }
+    margin: auto;
+    width: 380px;
+    margin-top: 30px;
+}
+#trainer .container6 div {
+    background-color: #fff;
+    border: 3px solid #000;
+    width: 350px;
+    height: 460px;
+    margin-bottom: 30px;
+}
+footer section .footer-info .links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 @media (min-width: 769px) and (max-width: 1300px) {
